@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css" >
+    <script type="text/javascript" src="js/jquery-3.2.1.js"></script>
+    <script src="js/scripts.js" charset="utf-8"></script></script>
+    <title>Favorite Things</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Tell us your favorite things</h1>
+      <p>You seem fun. We'd like to know your favorite things. List them below.</p>
+
+      <form id="user-info">
+        <div class="form-group">
+          <label for="show">Enter your favorite tv show</label>
+          <input type="text" id="show" class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="show">Enter your favorite cartoon character</label>
+          <input type="text" id="character" class="form-control" placeholder="Name" required>
+        </div>
+        <div class="form-group">
+          <label for="show">Enter your favorite animal</label>
+          <input type="text" id="animal" class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="star">Enter your Star Name</label>
+          <input type="text" id="star" class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="color">Enter your favorite color</label>
+          <input type="text" id="color" class="form-control">
+        </div>
+        <button type="submit" class="btn button">Click Me!</button>
+      </form>
+    </div>
+
+    <div id="favorite-things">
+      <ul>
+        <li><span id="one"></span> is your favorite star</li>
+        <li><span id="two"></span> is your favoite color</li>
+      </ul>
+    </div>
+
+</body>
+</html>
